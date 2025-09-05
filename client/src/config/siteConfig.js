@@ -1,7 +1,7 @@
 /**
  * Site Configuration
  * This file contains all configurable content for the website
- * Last updated: 2025-09-05T21:20:05.896Z
+ * Last updated: 2025-09-05T21:21:57.481Z
  */
 
 // contactInfo configuration
@@ -67,7 +67,7 @@ export const heroVideo = {
   playsInline: true
 };
 
-// homeShowcaseSections configuration  
+// homeShowcaseSections configuration
 export const homeShowcaseSections = [
   {
     id: "section1",
@@ -97,15 +97,15 @@ export const homeShowcaseSections = [
 
 // neighborhood configuration
 export const neighborhood = {
-  name: "Toronto",
+  name: "King West",
   city: "Toronto",
-  description: "Toronto's premier destination for culture, dining, and urban living.",
+  description: "King West places you in the vibrant heart of Toronto’s Entertainment District, where world-class dining, nightlife and cultural venues are steps from your door. The neighbourhood blends preserved heritage and striking contemporary architecture, offering an energized, walkable lifestyle with excellent transit and abundant green spaces.",
   highlights: [
-    "Steps to theaters, dining, and entertainment venues",
-    "Direct access to PATH underground walkway", 
-    "TTC subway and streetcar connections",
-    "Walk to financial district and shopping",
-    "Vibrant urban lifestyle with excellent walk score"
+    "Proximity to major Toronto landmarks including CN Tower, Rogers Centre, Ripley's Aquarium, and Scotiabank Arena",
+    "Vibrant Entertainment District with theatres such as TIFF Bell Lightbox and a lively nightlife scene",
+    "Easy access to Harbourfront and the Martin Goodman Trail for waterfront recreation",
+    "Wide selection of restaurants, cafes, bars and patios along King Street West",
+    "Exceptional walkability and transit access — ideal for car-free urban living"
   ]
 };
 
@@ -113,45 +113,59 @@ export const neighborhood = {
 export const neighborhoodAmenities = [
   {
     id: 1,
-    name: "Local Grocery Store",
-    distance: "0.2 miles",
+    name: "The Distillery Historic District",
+    distance: "",
     category: "shopping",
     iconName: "ShoppingBag"
   },
   {
     id: 2,
-    name: "Nearby Park",
-    distance: "0.1 miles", 
+    name: "Grasett Park",
+    distance: "",
     category: "recreation",
     iconName: "Leaf"
   },
   {
     id: 3,
-    name: "Public School",
-    distance: "0.6 miles",
-    category: "education", 
+    name: "TIFF Bell Lightbox",
+    distance: "",
+    category: "education",
     iconName: "School"
   },
   {
     id: 4,
-    name: "Fine Dining",
-    distance: "0.2 miles",
+    name: "Petros82 Restaurant",
+    distance: "",
     category: "dining",
-    iconName: "Wine"
+    iconName: "Coffee"
   },
   {
     id: 5,
-    name: "Casual Dining",
-    distance: "0.4 miles",
+    name: "Cheffry's Bistro",
+    distance: "",
     category: "dining",
     iconName: "Utensils"
   },
   {
     id: 6,
-    name: "Transit Station",
-    distance: "0.4 miles",
+    name: "King St West at Peter St (TTC stop)",
+    distance: "",
     category: "transportation",
-    iconName: "Train"
+    iconName: "Car"
+  },
+  {
+    id: 7,
+    name: "EdgeWalk at the CN Tower",
+    distance: "",
+    category: "recreation",
+    iconName: "Users"
+  },
+  {
+    id: 8,
+    name: "Financial District",
+    distance: "",
+    category: "business",
+    iconName: "Wifi"
   }
 ];
 
@@ -160,34 +174,26 @@ export const neighborhoodStats = [
   {
     id: 1,
     title: "Walk Score",
-    value: "95/100",
+    value: "100/100",
     caption: "Walker's Paradise",
     iconName: "BadgeCheck",
     color: "bg-green-500"
   },
   {
     id: 2,
-    title: "Transit Score", 
-    value: "94/100",
-    caption: "Excellent Transit",
+    title: "Transit Score",
+    value: "100/100",
+    caption: "Rider's Paradise",
     iconName: "Compass",
     color: "bg-blue-500"
   },
   {
     id: 3,
-    title: "School Rating",
-    value: "8/10", 
-    caption: "Great Schools",
-    iconName: "School",
+    title: "BikeScore",
+    value: "95/100",
+    caption: "Biker's Paradise",
+    iconName: "Compass",
     color: "bg-indigo-500"
-  },
-  {
-    id: 4,
-    title: "Commute Time",
-    value: "8 min",
-    caption: "To Financial District",
-    iconName: "Clock", 
-    color: "bg-amber-500"
   }
 ];
 
@@ -207,7 +213,7 @@ export const openHouseBenefits = [
   },
   {
     id: 3,
-    title: "School District Information", 
+    title: "School District Information",
     description: "Boards: Toronto District School Board (TDSB) & Toronto Catholic District School Board (TCDSB).",
     iconName: "GraduationCap"
   },
@@ -259,7 +265,7 @@ export const packageItems = [
   },
   {
     id: 3,
-    title: "School District Information", 
+    title: "School District Information",
     description: "Boards: Toronto District School Board (TDSB) & Toronto Catholic District School Board (TCDSB).",
     iconName: "GraduationCap"
   },
@@ -330,7 +336,7 @@ export const siteBranding = {
   favicon: "/favicon.ico",
   colors: {
     primary: "#D9A566",
-    primaryDark: "#8B6839", 
+    primaryDark: "#8B6839",
     primaryLight: "#E6C38C",
     dark: "#111111",
     light: "#FFFFFF"
@@ -358,7 +364,7 @@ export const testimonials = [
   {
     id: 1,
     name: "David Chen",
-    role: "Recent Homebuyer", 
+    role: "Recent Homebuyer",
     content: "Arslan Ahmed provided exceptional service and found us exactly what we were looking for in Toronto.",
     avatar: "https://randomuser.me/api/portraits/men/22.jpg"
   },
@@ -371,9 +377,10 @@ export const testimonials = [
   },
   {
     id: 3,
-    name: "Mark Williams", 
+    name: "Mark Williams",
     role: "Neighborhood Resident",
     content: "Living in this area, you appreciate the convenience and lifestyle. Arslan Ahmed knows the market incredibly well.",
     avatar: "https://randomuser.me/api/portraits/men/35.jpg"
   }
 ];
+
